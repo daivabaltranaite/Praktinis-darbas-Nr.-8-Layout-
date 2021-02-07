@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/field1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#DC4848"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="119dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#33A1AF"
+            android:text="BUTTON"
+            android:textColor="#F8F6F6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/field2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FAF9F9"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_id2"
+            android:layout_width="119dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#33A1AF"
+            android:text="BUTTON"
+            android:textColor="#F8F6F6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/field3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#272787"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_id3"
+            android:layout_width="119dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#33A1AF"
+            android:text="BUTTON"
+            android:textColor="#F8F6F6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
